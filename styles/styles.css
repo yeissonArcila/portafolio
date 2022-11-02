@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Montserrat:wght@100;300&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background:linear-gradient(rgb(0,0,0.7), rgb(255, 255, 255)), url();  
+    /* background-image: url(https://www.wallpapertip.com/wmimgs/15-151033_web-developer.jpg); */
+    /* background-image: url(https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt.jpg); */
+    background-image: url(https://st.depositphotos.com/3037579/3844/i/600/depositphotos_38441595-stock-photo-abstract-technology-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+#inicio .contenido header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
+}
+#inicio .contenido header .contenedor-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+#inicio .contenido header .contenedor-header h1{
+    text-align: center;
+    color: rgb(46, 24, 247);
+}
+
+#inicio .contenido header .contenedor-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido header .contenedor-header nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+    font-weight: 400;
+    transform: .5s;
+}
+
+
+#inicio .contenido header .contenedor-header nav ul a:hover{
+    color: blue;
+}
+
+
+#inicio .contenido header .contenedor-header .iconos-contactos a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+    
+}
+
+#inicio .contenido header .contenedor-header .iconos-contactos a:hover{
+    color: blue;
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffff;
+
+}
+#inicio .contenido .presentacion h2{
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 25px;
+    color: aqua;
+}
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+#inicio .contenido .presentacion a:hover{
+    background-color: black;
+}
+#iconos-nav{
+    display: none;
+}
